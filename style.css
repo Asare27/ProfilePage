@@ -1,0 +1,321 @@
+/*------default setting for the style sheet-----*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* --------Assign default font weight to the ---*/
+
+h1,h2,h3,h4,h5{
+  font-weight: 500;
+}
+
+
+/*-------Style for the scroll behaviour for the html ---*/
+html{
+  scroll-behavior: smooth;
+}
+
+
+/* Background colour */
+body {
+  background: #1f1f38;
+  color: #fff;
+  line-height: 1.7;
+}
+
+
+/*-----Header Style ---- */
+
+.header_container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+  font-weight: arial;
+ 
+}
+
+/*------CTA --------*/
+.CTA{
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+
+/*-------Styling button -------*/
+.btn{
+  width: max-content;
+  display: inline-block;
+  color: #4bd5ff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid #4bd5ff;
+}
+
+/*--------Style for the hover button ------*/
+.btn:hover{
+  background: #fff;
+  color: #1f1f38;
+  border-color: transparent;
+}
+
+/*--------style for btn primary ------*/
+.btn-primary{
+  background: #4bd5ff;
+  width: max-content;
+  display: inline-block;
+  color: #1f1f38;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid #4bd5ff;
+
+}
+
+/*--------about me ------*/
+.about_container{
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/*-------Style the image div ------*/
+.about_me{
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg,transparent,#4bd5ff,transparent);
+  place-content: center;
+  display: grid;
+
+}
+
+/*--------Style the image -----*/
+.about_me-image{
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg); 
+  display: flex; 
+}
+
+
+/*------Style for the image hover------*/
+.about_me-image:hover{
+  transform: rotate(0);
+}
+
+
+/*-----Position all section h2,h4,h5 ----*/
+#about{
+  text-align: center;
+  color: #fff;
+  margin-top: 5rem;
+}
+
+
+/*--------Style content in about Page ------*/
+.about_content p{
+  margin: 10px auto 0 auto;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  text-align: justify;
+  color: #ccbd92; 
+}
+
+/*-----------Style the main education section-------*/
+#education {
+  margin: 10px auto 0 auto;
+  width: 100%;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  color: #ccbd92;
+  border-top: 1px solid #4bd5ff; 
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/*------Style header under education ------*/
+#edu{
+  text-align: center;
+  color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 3px;
+}
+
+
+/*------------Style main Voluntary Section ------*/
+.voluntary{
+  margin: 10px auto 0 auto;
+  width: 100%;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  color: #ccbd92;
+  border-top: 1px solid #4bd5ff;
+}
+
+/*-----Style the Header under volunteering -----*/
+#volun{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    
+}
+
+
+/*----------Hobies container main section -------*/
+
+.hobbies{
+  margin: 10px auto 0 auto;
+  width: 100%;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  color: #ccbd92;
+  border-top: 1px solid #4bd5ff; 
+  border-bottom: 1px solid #4bd5ff;
+  padding-left: 2rem;
+  padding-left: 2rem;
+}
+
+/*---------Style the Header under Hobbies------*/
+#hob{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    
+}
+
+
+
+/*------------Contact Starts here-------*/
+.contact{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/*---------Style the head for the contact ------*/
+.contact_head{
+  text-align: center;
+  color: #fff;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 20px;
+}
+
+/*------ style main container for contact------*/
+.contact_container{
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
+
+/*-------Style for the contact info ------*/
+
+.contact_option{
+  padding: 1.2rem;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  color: #ccbd92;
+}
+
+/* ---------Style submit button under form -----*/
+.btn-click{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* -----style forms -------*/
+form{
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  padding-right: 2px;
+  
+}
+
+/*---------Style input & Textarea for forms ------*/
+input,textarea{
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border:2px solid #4bd5ff;
+  resize: none;
+  color: #fff;
+  
+}
+
+/*-------Style main container for footer ----*/
+.icons{
+  text-align: center;
+  height: 100%;
+  position: relative;
+  font-weight: arial;
+  margin-bottom: 3px;
+  gap: 2px;
+}
+
+/*--------style anchor tags within footer ------*/
+a{
+  font-size: 24px;
+  color: #ccbd92;
+  gap: 1rem;
+  flex-direction: column;
+  word-spacing: 1px;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 30px;
+ 
+}
+
+/*---------Style Ion-Icons within footer---*/
+ion-icon{
+ font-size: 20px;
+ width: 40px;
+ height: 40px;
+ display: inline-block;
+ text-align: center;
+ margin-left: 10px;
+ margin-top: 22px;
+ color: #4bd5ff;
+
+}
+/*------Style buttonto take you Up -----*/
+#jump{
+  float: right;
+  padding-right: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
